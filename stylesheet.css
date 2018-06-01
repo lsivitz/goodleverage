@@ -1,31 +1,35 @@
 body {
-	background-color: #eff2f0;
-	font-family: 'Martel', serif;
-}
-
-h1, p {
-	font-color: #607c6e;
+	background-color: #131712;
+	background-image: url("images/hero.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
 }
 
 h1 {
-	font-weight: 300;
+    color: #FFEF8E;
+    size: 36pt;
+    font-family: 'Martel', serif;
+    font-weight: 900;
 }
 
-p {
-	font-size: 16px;
+h2 {
+    color: #FFEF8E;
+    size: 36pt;
+    font-family: 'Martel', serif;
+    font-weight: 600;
 }
+
+h4 {
+    color: rgba(255, 239, 142, 0.86);
+    size: 20pt;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 600;
+}
+
 
 table {
 }
 
-th {
-	
-	text-align: left;
-}	
-
-tr {
-
-}
 
 td {
 	padding-top: 10px;
@@ -33,15 +37,22 @@ td {
     padding-right: 20px;
 }
 
+#intro {
+    text-align: left;
+    margin: 0 auto;
+    width: 497px;
+    position: relative;
+    top: 106px;
+}
+
+#
+
+#hero {
+}
 
 #main {
-padding-left: 10%;
-padding-top: 5%;
-}
-
-#posts {
-align: center;
-padding: 5%;
 }
 
 
+#trees {
+    
