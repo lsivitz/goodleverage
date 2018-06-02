@@ -1,8 +1,5 @@
 body {
 	background-color: #131712;
-	background-image: url("images/hero.jpg");
-	background-repeat: no-repeat;
-	background-position: center top;
 }
 
 h1 {
@@ -19,17 +16,20 @@ h2 {
     font-weight: 600;
 }
 
+h3 {
+    color: rgba(164, 233, 192, 0.5);
+    size: 24pt;
+    font-family: 'Martel', serif;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
 h4 {
     color: rgba(255, 239, 142, 0.86);
     size: 20pt;
     font-family: 'Cabin', sans-serif;
     font-weight: 600;
 }
-
-
-table {
-}
-
 
 td {
 	padding-top: 10px;
@@ -39,20 +39,62 @@ td {
 
 #intro {
     text-align: left;
-    margin: 0 auto;
     width: 497px;
-    position: relative;
     top: 106px;
+    left: 280;
+    position: relative;
 }
-
-#
 
 #hero {
+    background-color: white; 
+    position: relative; 
 }
+
+#tree_container {
+    margin: 0 auto;
+    background-image: url("images/hero.jpg");
+    width: 1025px;
+    height: 472px; 
+} 
 
 #main {
+    margin-top: 50px;
+    margin-left: 90px;
 }
 
+#articles {
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.17);
+    position: relative;
+}
 
-#trees {
-    
+#darkblur {
+-webkit-filter: blur(5px);
+filter: blur(5px);
+background-color: rgba(255, 255, 255, 0.9)
+}
+
+.link {
+    color: rgba(255, 255, 255, 0.9);
+    size: 20pt;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 600;
+
+}
+
+.summary {
+    color: rgba(255, 255, 255, 0.4);
+    size: 18pt;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 600;
+}
+
+.tags {
+    color: rgba(255, 255, 255, 0.6);
+    size: 10pt;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 600; 
+    position: absolute;
+    right: 10%;
+
+}
