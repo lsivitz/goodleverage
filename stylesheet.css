@@ -31,12 +31,6 @@ h4 {
     font-weight: 600;
 }
 
-td {
-	padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 20px;
-}
-
 #intro {
     text-align: left;
     width: 497px;
@@ -59,26 +53,29 @@ td {
 
 #main {
     margin-top: 50px;
-    margin-left: 90px;
 }
 
 #articles {
-    border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.17);
     position: relative;
+    width: 80%;
+    margin: 0 auto;
 }
 
-#darkblur {
--webkit-filter: blur(5px);
-filter: blur(5px);
-background-color: rgba(255, 255, 255, 0.9)
+.post {
+    border-radius: 10px;
+    background-color: rgba(52, 124, 109, 0.56);
+    height: 285px;
 }
-
+    
 .link {
     color: rgba(255, 255, 255, 0.9);
     size: 20pt;
     font-family: 'Cabin', sans-serif;
     font-weight: 600;
+    padding-left: 20px;
+    top: 35px;
+    position: relative;
+    display: block;
 
 }
 
@@ -87,14 +84,24 @@ background-color: rgba(255, 255, 255, 0.9)
     size: 18pt;
     font-family: 'Cabin', sans-serif;
     font-weight: 600;
+    width: 40%;
+    padding-left: 20px;
+    position: relative;
+    top: 30px;
+    display: block;
+    
+
 }
 
 .tags {
     color: rgba(255, 255, 255, 0.6);
-    size: 10pt;
+    size: 14pt;
     font-family: 'Cabin', sans-serif;
-    font-weight: 600; 
-    position: absolute;
-    right: 10%;
+    font-weight: 400; 
+    position: relative;
+    right: 30px;
+    display: block;
+    float: right;
+
 
 }
