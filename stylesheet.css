@@ -74,17 +74,16 @@ h4 {
 .postcopy {
     display: inline-block;
     float: left;
-    background-color: #ffffff;
     width: 40%;
-    margin-left: 20px;
+    margin-left: 35px;
 }
     
 .postdetails {
+    position: relative;
     display: inline-block;
     float: right;
-    background-color: #aaaaaa;
     width: 40%;
-    margin-right: 20px;
+    margin-right: 35px;
 }
 
 .link {
@@ -102,12 +101,25 @@ h4 {
     font-weight: 600; 
 }
 
+.more {
+    position: absolute;
+    bottom: 35px;
+    font-family: 'Cabin', sans-serif; 
+    color: rgba(255, 255, 255, 0.75);
+    size: 18pt;
+    font-weight: 600; 
+    text-decoration: underline;
+}
+    
+
 .tags {
+    display: inline-block; 
+    float: right;
+    margin-top: 0px;
     color: rgba(255, 255, 255, 0.6);
     size: 14pt;
     font-family: 'Cabin', sans-serif;
     font-weight: 400; 
-    text-align: right;
 }
 
 .linkpic {
