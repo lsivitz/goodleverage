@@ -31,30 +31,34 @@ h4 {
     font-weight: 600;
 }
 
-#intro {
-    text-align: left;
-    width: 497px;
-    top: 106px;
-    left: 280;
+#main {
     position: relative;
+    width: 1025;
+    margin: 0 auto;
 }
 
 #hero {
-    background-color: white; 
     position: relative; 
-}
-
-#tree_container {
     margin: 0 auto;
     background-image: url("images/hero.jpg");
-    width: 1025px;
+    width: auto;
     height: 472px; 
+    max-width: 1025px;
+    min-width: 1025px;
+}
+
+#herotext {
+    position: relative;
+    text-align: left;
+    width: 497px;
+    top: 106px;
+    left: 280px;
 } 
 
-#main {
+#posts {
     position: relative;
     top: 100px;
-    width: 80%;
+    width: 750;
     margin: 0 auto;
 }
 
