@@ -1,6 +1,12 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 body {
 	background-color: #131712;
 	position: relative;
+	height: 100%;
 }
 
 h1 {
@@ -58,20 +64,22 @@ h4 {
 
 #posts {
     position: relative;
+    border-radius: 10px;
     top: 60px;
     width: 750;
-    height: 30%;
     margin: 0 auto;
-    margin-bottom: 50px;
+    padding-bottom: 20px;
     background-color: rgba(52, 124, 109, 0.56);
     overflow: hidden;
 }
 
 #footer {
     position: relative;
+    display: absolute;
     bottom: 0;
-    height: 50px;
-    width: 100%;
+    text-align: right;
+    background-color: orange;
+
 }
 
 #footertext {
@@ -81,21 +89,11 @@ h4 {
     font-weight: 400; 
 }
 
-
-.postcontainer { 
-    position: relative;
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
-
 .post {
     position: relative;
     padding-top: 20px;
-}
-
-.postcopy {
-    display: inline-block;
     margin-left: 35px;
+
 }
 
 .title {
@@ -114,7 +112,7 @@ h4 {
 }
 
 .more {
-    position: absolute;
+    position: relative;
     font-family: 'Cabin', sans-serif; 
     color: rgba(255, 255, 255, 0.75);
     size: 18pt;
