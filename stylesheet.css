@@ -1,5 +1,6 @@
 body {
 	background-color: #131712;
+	position: relative;
 }
 
 h1 {
@@ -57,40 +58,47 @@ h4 {
 
 #posts {
     position: relative;
-    top: 100px;
+    top: 60px;
     width: 750;
+    height: 30%;
     margin: 0 auto;
+    margin-bottom: 50px;
+    background-color: rgba(52, 124, 109, 0.56);
+    overflow: hidden;
 }
+
+#footer {
+    position: relative;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+}
+
+#footertext {
+    color: rgba(255, 255, 255, 0.6);
+    size: 12pt;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400; 
+}
+
 
 .postcontainer { 
     position: relative;
     border-radius: 10px;
-    background-color: rgba(52, 124, 109, 0.56);
+    margin-bottom: 20px;
 }
 
 .post {
     position: relative;
-    padding-top: 35px;
-    padding-bottom: 35px;
-    overflow: hidden;
+    padding-top: 20px;
 }
 
 .postcopy {
     display: inline-block;
-    float: left;
-    width: 40%;
     margin-left: 35px;
 }
-    
-.postdetails {
-    position: relative;
-    display: inline-block;
-    float: right;
-    width: 40%;
-    margin-right: 35px;
-}
 
-.link {
+.title {
     color: rgba(255, 255, 255, 0.9);
     size: 20pt;
     font-family: 'Cabin', sans-serif;
@@ -107,7 +115,6 @@ h4 {
 
 .more {
     position: absolute;
-    bottom: 35px;
     font-family: 'Cabin', sans-serif; 
     color: rgba(255, 255, 255, 0.75);
     size: 18pt;
@@ -118,15 +125,11 @@ h4 {
 
 .tags {
     display: inline-block; 
-    float: right;
-    margin-top: 0px;
+    margin: 4px;
+    margin-left: 8px;
     color: rgba(255, 255, 255, 0.6);
     size: 14pt;
     font-family: 'Cabin', sans-serif;
     font-weight: 400; 
 }
 
-.linkpic {
-    width: 300px;
-    float: right;
-}
