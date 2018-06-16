@@ -4,28 +4,28 @@ html {
 }
 
 body {
-	background-color: #131712;
+	background-color: #9B9D9A;
 	position: relative;
-	height: 100%;
 }
 
 h1 {
     color: #FFEF8E;
-    size: 36pt;
+    font-size: 64pt;
     font-family: 'Martel', serif;
     font-weight: 900;
+    display: inline;
 }
 
 h2 {
     color: #FFEF8E;
-    size: 36pt;
+    font-size: 36pt;
     font-family: 'Martel', serif;
     font-weight: 600;
 }
 
 h3 {
     color: rgba(164, 233, 192, 0.5);
-    size: 24pt;
+    font-size: 24pt;
     font-family: 'Martel', serif;
     font-weight: 900;
     margin-bottom: 20px;
@@ -33,9 +33,12 @@ h3 {
 
 h4 {
     color: rgba(255, 239, 142, 0.86);
-    size: 20pt;
+    font-size: 14pt;
     font-family: 'Cabin', sans-serif;
-    font-weight: 600;
+    font-weight: 500;
+    font-style: italic;
+    margin-left: 10px;
+    display: inline;
 }
 
 #main {
@@ -44,7 +47,7 @@ h4 {
     margin: 0 auto;
 }
 
-#hero {
+#heroimage {
     position: relative; 
     margin: 0 auto;
     background-image: url("images/hero.jpg");
@@ -52,33 +55,32 @@ h4 {
     height: 472px; 
     max-width: 1025px;
     min-width: 1025px;
+    padding-top: 50px;
+    margin-top: 50px;
 }
 
 #herotext {
     position: relative;
-    text-align: left;
-    width: 497px;
-    top: 106px;
-    left: 280px;
+    margin: 0 auto;
+    width: 758;
+    top: 60px;
 } 
 
 #posts {
     position: relative;
     border-radius: 10px;
-    top: 60px;
-    width: 750;
+    top: 50px;
+    width: 800;
     margin: 0 auto;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     background-color: rgba(52, 124, 109, 0.56);
-    overflow: hidden;
 }
 
 #footer {
-    position: relative;
-    display: absolute;
-    bottom: 0;
+    position: absolute;;
+    bottom: -160;
+    right: 0;
     text-align: right;
-    background-color: orange;
 
 }
 
@@ -91,31 +93,33 @@ h4 {
 
 .post {
     position: relative;
-    padding-top: 20px;
-    margin-left: 35px;
+    padding: 50px;
+    padding-bottom: 0px;
+    width: 700;
 
 }
 
 .title {
-    color: rgba(255, 255, 255, 0.9);
-    size: 20pt;
+    color: rgba(255, 255, 255, 0.95);
+    font-size: 16pt;
     font-family: 'Cabin', sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     text-decoration: none; 
 }
 
 .summary {
     font-family: 'Cabin', sans-serif; 
-    color: rgba(255, 255, 255, 0.4);
-    size: 18pt;
-    font-weight: 600; 
+    color: rgba(255, 255, 255, 0.73);
+    font-size: 14pt;
+    font-weight: 400; 
+    margin-top: 6;
+    margin-bottom: 6;
 }
 
 .more {
-    position: relative;
     font-family: 'Cabin', sans-serif; 
     color: rgba(255, 255, 255, 0.75);
-    size: 18pt;
+    font-size: 14pt;
     font-weight: 600; 
     text-decoration: underline;
 }
@@ -125,9 +129,16 @@ h4 {
     display: inline-block; 
     margin: 4px;
     margin-left: 8px;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.4);
     size: 14pt;
     font-family: 'Cabin', sans-serif;
     font-weight: 400; 
 }
 
+.sig {
+    color: rgba(255, 255, 255, 0.7);
+    size: 20pt;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 600;
+    text-decoration: none; 
+}
