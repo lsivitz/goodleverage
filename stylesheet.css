@@ -21,6 +21,8 @@ h2 {
     font-size: 40pt;
     font-family: 'Martel', serif;
     font-weight: 300;
+    margin-top: 20px;
+    text-align: center;
 }
 
 h3 {
@@ -49,17 +51,26 @@ h4 {
     
 }
 
-#heroimage {
+#hero {
     position: relative; 
-    margin: 0 auto;
-    background-image: url("images/hero.jpg");
-    width: auto;
     height: 472px; 
     max-width: 1025px;
     min-width: 1025px;
-    padding-top: 50px;
     margin-top: 50px;
-    box-shadow: .5px 1px 2px;
+
+}
+
+#heroimage {
+    background-image: url("images/hero.jpg");
+    width: 1025px;
+    height: 472px;
+    z-index: 1;
+    position: absolute;
+    -webkit-filter: blur(2px);
+    filter: blur(2px);
+    border-radius: 10px;
+
+
 }
 
 #herotext {
@@ -67,6 +78,7 @@ h4 {
     margin: 0 auto;
     width: 758;
     top: 60px;
+    z-index: 9999;
 } 
 
 #name {
@@ -75,7 +87,8 @@ h4 {
 
 #helps {
     position: relative;
-    left: 600;
+    left: 640px;
+    top: -10px;
 }
 
 #posts {
@@ -85,7 +98,6 @@ h4 {
     width: 800;
     margin: 0 auto;
     background-color: rgba(52, 124, 109, 0.56);
-    box-shadow: .5px 1px 2px;
     
 }
 
